@@ -8,6 +8,8 @@ namespace Prodapt.CSharp.Day4
             LoginValidation obj = new LoginValidation();
             var result = obj.Validation("admin", "admin@123");
             Console.WriteLine(result ? "Valid User" : "Invalid User");
+            Console.WriteLine("naveen.t");
+            Console.WriteLine("ytyut");
         }
     }
 }
