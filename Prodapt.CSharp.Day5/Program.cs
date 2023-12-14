@@ -4,10 +4,8 @@
     {
         static void Main(string[] args)
         {
-            var date=DateTime.Now;
-            Console.WriteLine(DateTime.Now.AddDays(10));
-            Console.WriteLine(date);
-            Console.WriteLine("HelloWorld");
+            string name = "    ";
+            Console.WriteLine(String.IsNullOrWhiteSpace(name));
             
         }
     }
